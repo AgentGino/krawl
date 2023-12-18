@@ -56,7 +56,7 @@ func main() {
 	allData, err := krawl.Runner(
 		krawl.RunnerInput{
 			StartUrl:     "https://go.dev",
-			PathPatterns: []string{"docs/.*"},
+			PathPatterns: []string{"doc/.*"},
 		},
 	)
 	if err != nil {
