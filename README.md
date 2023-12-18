@@ -52,7 +52,6 @@ func SaveToJSON(data []*krawl.RunnerOutput, filename string) error {
 }
 
 func main() {
-	// fmt.Println(krawl.SayHello())
 	allData, err := krawl.Runner(
 		krawl.RunnerInput{
 			StartUrl:     "https://go.dev",
